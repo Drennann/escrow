@@ -1,15 +1,23 @@
 body {
   background-color: #eee;
   display: flex;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top left, #0d1321, black);
+  text-shadow: 0 0 80px rgba(191, 218, 254, 0.47),
+    0 0 31px rgba(64, 121, 254, 0.23);
 }
 
-.contract, .existing-contracts {
+.contract,
+.existing-contracts {
   margin: 20px;
   display: inline-block;
   padding: 40px;
-  border: 1px solid #ddd;
-  background-color: #fff;
+  border: 1px solid rgba(100, 116, 139, 0.2);
+  background-color: #080c14;
+  color: white;
 }
 
 h1 {
@@ -29,6 +37,13 @@ label {
 input[type="text"] {
   padding: 6px;
   font-size: 18px;
+  background-color: transparent;
+  border: 1px solid rgba(100, 116, 139, 0.2);
+  color: white;
+}
+
+input:focus-visible {
+  outline: none;
 }
 
 .button {
