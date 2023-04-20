@@ -47,7 +47,7 @@ input:focus-visible {
 }
 
 .button {
-  background-color: #f58427;
+  background-color: #583da1;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -62,7 +62,7 @@ input:focus-visible {
 .existing-contract ul {
   padding: 10px;
   margin: 20px;
-  background-color: #eee;
+  background-color: #080c14;
 }
 
 .existing-contract ul > li {
